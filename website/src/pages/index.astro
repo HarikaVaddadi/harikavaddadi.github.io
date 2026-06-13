@@ -1,17 +1,155 @@
 ---
+const name = "Harika Vaddadi";
+
+const tagline =
+  "Senior AI Engineer • Writer • Home Cook";
+
+const description =
+  "Exploring the intersection of artificial intelligence, creativity, food, and mindful living.";
 ---
 
 <html lang="en">
-  <body>
-    <main style="max-width:800px;margin:auto;padding:2rem;">
-      <h1>Harika Vaddadi</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content={description}
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-      <p>Senior AI Engineer</p>
+    <title>{name}</title>
+  </head>
+
+  <body
+    style="
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    "
+  >
+    <header>
+      <h1>{name}</h1>
 
       <p>
-        Exploring the intersection of AI, poetry,
-        food, coffee, sunsets and lifelong learning.
+        <strong>{tagline}</strong>
       </p>
-    </main>
+
+      <p>{description}</p>
+    </header>
+
+    <hr />
+
+    <section>
+      <h2>Welcome</h2>
+
+      <p>
+        Hi, I'm Harika. I build AI solutions,
+        write about technology, enjoy cooking,
+        and document lessons from work and life.
+      </p>
+
+      <p>
+        This website is my digital garden —
+        a place where machine learning,
+        creativity, food, and everyday
+        experiences come together.
+      </p>
+    </section>
+
+    <section>
+      <h2>What You'll Find Here</h2>
+
+      <ul>
+        <li>
+          <strong>AI Projects</strong> —
+          real-world work in Generative AI,
+          RAG systems, Computer Vision,
+          MLOps, and Document Intelligence.
+        </li>
+
+        <li>
+          <strong>Technical Writing</strong> —
+          notes, tutorials, interview
+          preparation, and lessons learned.
+        </li>
+
+        <li>
+          <strong>Poetry</strong> —
+          reflections inspired by technology,
+          people, nature, and everyday life.
+        </li>
+
+        <li>
+          <strong>Recipes</strong> —
+          healthy meals, comfort food,
+          and weekend cooking experiments.
+        </li>
+
+        <li>
+          <strong>Journal</strong> —
+          thoughts collected during walks,
+          sunsets, coffee breaks, and beach visits.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Current Interests</h2>
+
+      <ul>
+        <li>Generative AI</li>
+        <li>RAG Systems</li>
+        <li>Agentic Workflows</li>
+        <li>Document Intelligence</li>
+        <li>Computer Vision</li>
+        <li>Technical Writing</li>
+        <li>Healthy Living</li>
+        <li>Coffee & Conversations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Featured Areas</h2>
+
+      <ul>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="/poems">Poetry</a>
+        </li>
+
+        <li>
+          <a href="/recipes">Recipes</a>
+        </li>
+
+        <li>
+          <a href="/journal">Journal</a>
+        </li>
+
+        <li>
+          <a href="/about">About Me</a>
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <footer>
+      <p>
+        © 2026 Harika Vaddadi
+      </p>
+
+      <p>
+        Building AI. Writing stories.
+        Cooking meals. Collecting sunsets.
+      </p>
+    </footer>
   </body>
 </html>
